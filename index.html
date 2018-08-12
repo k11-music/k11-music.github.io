@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-   <script type="text/javascript">
-      window.location.replace("https://codepen.io/kcak11/full/wxRxNp/");
-   </script>
+   <meta charset="UTF-8">
+   <title>Music Player</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
+
+   <div class="container visibleNone">
+      <label for="playlist">Select Audio:</label>
+      <select id="playlist" name="playlist"></select>
+      <label class="audioLoop"><input type="checkbox" name="audioLoop" checked/> Loop Selected Audio</label>
+      <button type="button" class="play">➤ Play</button>
+   </div>
+
+   <script src="js/index.js"></script>
+
 </body>
 
 </html>
